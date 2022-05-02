@@ -18,7 +18,7 @@ namespace cicd.teste.selenium
         [Given(@"O browser é aberto")]
         public void GivenOBrowserEAberto()
         {
-            browser.Navigate().GoToUrl("https://localhost:7073" + "/swagger/index.html");
+            browser.Navigate().GoToUrl("https://testele.azurewebsites.net" + "/swagger/index.html");
         }
 
         [When(@"carregar a tela")]
